@@ -1,0 +1,182 @@
+{
+  "PresetView" : {
+    "type" : "UIView",
+    "frame" : {
+      "y" : "0",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
+    },
+    "children" : {
+      "Text_info" : {
+        "scale" : "0",
+        "borderColor" : "rgba(255,255,255,0)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "340",
+          "x" : "center",
+          "width" : "350",
+          "height" : "200"
+        },
+        "backgroundColor" : "rgba(255, 255, 255, 0.0)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "alpha" : "1",
+        "children" : {
+          "today" : {
+            "borderColor" : "rgba(255, 255, 255, 0.0)",
+            "textStyle" : "none",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "-6",
+              "x" : "-5",
+              "width" : "320",
+              "height" : "140"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(92, 92, 92, 1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : " [day]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "70",
+            "fontName" : "Td-Monoline-Signature.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "conditionstring" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "capitalize",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "130",
+              "x" : "20",
+              "width" : "290",
+              "height" : "50"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "2",
+            "data" : "Hiện tại là [condition]. Cao nhất trong ngày hôm nay sẽ đạt [high][degreeSymbol] Ngay bây giờ la [temperature][degreeSymbol] và pin của bạn là [batterypercent]%",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "11",
+            "fontName" : "LouisGeorgeCafe.otf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "month" : {
+            "borderColor" : "rgba(255, 255, 255, 0.0)",
+            "textStyle" : "uppercase",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "17",
+              "x" : "44",
+              "width" : "300",
+              "height" : "140"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(248, 221, 149, 1.00)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : " [month]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "43",
+            "fontName" : "Montserrat-Bold.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          },
+          "time" : {
+            "borderColor" : "rgba(255,255,255,1)",
+            "textStyle" : "uppercase",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "frame" : {
+              "y" : "105",
+              "x" : "17",
+              "width" : "176",
+              "height" : "40"
+            },
+            "kerning" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "type" : "UILabel",
+            "numberOfLines" : "1",
+            "data" : "[hour]:[minute]",
+            "borderWidth" : "0",
+            "gradientImage" : "none",
+            "fontSize" : "29",
+            "fontName" : "MarketingScript-Shadow.ttf",
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            }
+          }
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "cornerRadius" : "5",
+        "blurColor" : "dark"
+      },
+      "box" : {
+        "blurColor" : "dark",
+        "borderColor" : "rgba(255,255,255,0)",
+        "scale" : "0",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "520",
+          "x" : "center",
+          "width" : "400",
+          "height" : "391"
+        },
+        "backgroundColor" : "rgba(236, 224, 173, 0.00)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "showWhenPlaying" : "NO",
+        "childorder" : "none",
+        "cornerRadius" : "40",
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "userInteraction" : "YES"
+      }
+    }
+  }
+}
